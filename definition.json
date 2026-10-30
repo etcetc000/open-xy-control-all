@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "id": "controlall",
+  "name": "Control All",
+  "parameters": [
+    {
+      "id": "p1",
+      "label": "1",
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "p2",
+      "label": "2",
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "p3",
+      "label": "3",
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "p4",
+      "label": "4",
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "p5",
+      "label": "5",
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent",
+      "control": 0
+    },
+    {
+      "id": "p6",
+      "label": "6",
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent",
+      "control": 1
+    },
+    {
+      "id": "p7",
+      "label": "7",
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent",
+      "control": 2
+    },
+    {
+      "id": "p8",
+      "label": "8",
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent",
+      "control": 3
+    }
+  ],
+  "presets": {
+    "Init": {
+      "p1": 0.5,
+      "p2": 0.5,
+      "p3": 0.5,
+      "p4": 0.5,
+      "p5": 0.5,
+      "p6": 0.5,
+      "p7": 0.5,
+      "p8": 0.5
+    }
+  },
+  "resources": {
+    "voiceBytes": 4,
+    "voiceAlignment": 4,
+    "voiceCapacity": 1,
+    "sharedBytes": 0,
+    "outputPeakQ31": 1,
+    "display": {
+      "stateBytes": 20,
+      "stateAlignment": 4,
+      "paths": 0,
+      "points": 0,
+      "nodes": 19,
+      "texts": 16,
+      "palette": 16
+    },
+    "trackControl": {
+      "stateBytes": 4,
+      "stateAlignment": 4,
+      "unique": true,
+      "aux": [
+        12
+      ],
+      "savedBytes": 2,
+      "sharedLfo": false
+    }
+  },
+  "press": "page"
+}

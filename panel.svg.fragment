@@ -1,0 +1,83 @@
+<g id="controlall_panel">
+<!-- SDK two-page header: keep this block before machine artwork below y=38. -->
+<path d="M0,0 L480,0 L480,38 L0,38 Z" fill="#000000"/>
+<path id="controlall_node_0" transform="matrix(1 0 0 1 0 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#000000" stroke="#000000" stroke-width="0.5"/>
+<path id="controlall_node_1" transform="matrix(1 0 0 1 60 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#323232" stroke="#323232" stroke-width="0.5"/>
+<path id="controlall_node_2" transform="matrix(1 0 0 1 120 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#4B4B4B" stroke="#4B4B4B" stroke-width="0.5"/>
+<path id="controlall_node_3" transform="matrix(1 0 0 1 180 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#646464" stroke="#646464" stroke-width="0.5"/>
+<path id="controlall_node_4" transform="matrix(1 0 0 1 240 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#7D7D7D" stroke="#7D7D7D" stroke-width="0.5"/>
+<path id="controlall_node_5" transform="matrix(1 0 0 1 300 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#969696" stroke="#969696" stroke-width="0.5"/>
+<path id="controlall_node_6" transform="matrix(1 0 0 1 360 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#AFAFAF" stroke="#AFAFAF" stroke-width="0.5"/>
+<path id="controlall_node_7" transform="matrix(1 0 0 1 420 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#CDCDCD" stroke="#CDCDCD" stroke-width="0.5"/>
+<text id="controlall_text_0" transform="matrix(1 0 0 1 5 10)" fill="#CBCBCB" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="controlall_text_1" transform="matrix(1 0 0 1 125 10)" fill="#CBCBCB" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="controlall_text_2" transform="matrix(1 0 0 1 245 10)" fill="#000000" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="controlall_text_3" transform="matrix(1 0 0 1 365 10)" fill="#000000" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="controlall_text_4" transform="matrix(1 0 0 1 65 17.4)" fill="#CBCBCB" font-family="UniversNextPro-Light" font-size="20px">-</text>
+<text id="controlall_text_5" transform="matrix(1 0 0 1 185 17.4)" fill="#CBCBCB" font-family="UniversNextPro-Light" font-size="20px">-</text>
+<text id="controlall_text_6" transform="matrix(1 0 0 1 305 17.4)" fill="#000000" font-family="UniversNextPro-Light" font-size="20px">-</text>
+<text id="controlall_text_7" transform="matrix(1 0 0 1 425 17.4)" fill="#000000" font-family="UniversNextPro-Light" font-size="20px">-</text>
+<text id="controlall_text_8" transform="matrix(1 0 0 1 5 33)" fill="#5A5A5A" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="controlall_text_9" transform="matrix(1 0 0 1 125 33)" fill="#5A5A5A" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="controlall_text_10" transform="matrix(1 0 0 1 245 33)" fill="#5A5A5A" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="controlall_text_11" transform="matrix(1 0 0 1 365 33)" fill="#5A5A5A" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="controlall_text_12" transform="matrix(1 0 0 1 65 33)" fill="#707070" font-family="UniversNextPro-Light" font-size="13px">-</text>
+<text id="controlall_text_13" transform="matrix(1 0 0 1 185 33)" fill="#707070" font-family="UniversNextPro-Light" font-size="13px">-</text>
+<text id="controlall_text_14" transform="matrix(1 0 0 1 305 33)" fill="#707070" font-family="UniversNextPro-Light" font-size="13px">-</text>
+<text id="controlall_text_15" transform="matrix(1 0 0 1 425 33)" fill="#707070" font-family="UniversNextPro-Light" font-size="13px">-</text>
+
+<path d="M30,70 L30,150" fill="none" stroke="#333333" stroke-width="2"/>
+<path d="M22,110 L38,110" fill="none" stroke="#555555" stroke-width="1"/>
+<path id="controlall_node_8" d="M-12,-2 L12,-2 L12,2 L-12,2 Z" fill="#dddddd" stroke="#dddddd"/>
+<text x="26" y="170" fill="#aaaaaa" font-family="UniversNextPro-Light" font-size="12px">1</text>
+<path d="M90,70 L90,150" fill="none" stroke="#333333" stroke-width="2"/>
+<path d="M82,110 L98,110" fill="none" stroke="#555555" stroke-width="1"/>
+<path id="controlall_node_9" d="M-12,-2 L12,-2 L12,2 L-12,2 Z" fill="#dddddd" stroke="#dddddd"/>
+<text x="86" y="170" fill="#aaaaaa" font-family="UniversNextPro-Light" font-size="12px">2</text>
+<path d="M150,70 L150,150" fill="none" stroke="#333333" stroke-width="2"/>
+<path d="M142,110 L158,110" fill="none" stroke="#555555" stroke-width="1"/>
+<path id="controlall_node_10" d="M-12,-2 L12,-2 L12,2 L-12,2 Z" fill="#dddddd" stroke="#dddddd"/>
+<text x="146" y="170" fill="#aaaaaa" font-family="UniversNextPro-Light" font-size="12px">3</text>
+<path d="M210,70 L210,150" fill="none" stroke="#333333" stroke-width="2"/>
+<path d="M202,110 L218,110" fill="none" stroke="#555555" stroke-width="1"/>
+<path id="controlall_node_11" d="M-12,-2 L12,-2 L12,2 L-12,2 Z" fill="#dddddd" stroke="#dddddd"/>
+<text x="206" y="170" fill="#aaaaaa" font-family="UniversNextPro-Light" font-size="12px">4</text>
+<path d="M270,70 L270,150" fill="none" stroke="#333333" stroke-width="2"/>
+<path d="M262,110 L278,110" fill="none" stroke="#555555" stroke-width="1"/>
+<path id="controlall_node_12" d="M-12,-2 L12,-2 L12,2 L-12,2 Z" fill="#dddddd" stroke="#dddddd"/>
+<text x="266" y="170" fill="#aaaaaa" font-family="UniversNextPro-Light" font-size="12px">5</text>
+<path d="M330,70 L330,150" fill="none" stroke="#333333" stroke-width="2"/>
+<path d="M322,110 L338,110" fill="none" stroke="#555555" stroke-width="1"/>
+<path id="controlall_node_13" d="M-12,-2 L12,-2 L12,2 L-12,2 Z" fill="#dddddd" stroke="#dddddd"/>
+<text x="326" y="170" fill="#aaaaaa" font-family="UniversNextPro-Light" font-size="12px">6</text>
+<path d="M390,70 L390,150" fill="none" stroke="#333333" stroke-width="2"/>
+<path d="M382,110 L398,110" fill="none" stroke="#555555" stroke-width="1"/>
+<path id="controlall_node_14" d="M-12,-2 L12,-2 L12,2 L-12,2 Z" fill="#dddddd" stroke="#dddddd"/>
+<text x="386" y="170" fill="#aaaaaa" font-family="UniversNextPro-Light" font-size="12px">7</text>
+<path d="M450,70 L450,150" fill="none" stroke="#333333" stroke-width="2"/>
+<path d="M442,110 L458,110" fill="none" stroke="#555555" stroke-width="1"/>
+<path id="controlall_node_15" d="M-12,-2 L12,-2 L12,2 L-12,2 Z" fill="#dddddd" stroke="#dddddd"/>
+<text x="446" y="170" fill="#aaaaaa" font-family="UniversNextPro-Light" font-size="12px">8</text>
+<text x="15" y="201" fill="#cccccc" font-family="UniversNextPro-Light" font-size="12px">M2 relative</text>
+<text x="175" y="201" fill="#cccccc" font-family="UniversNextPro-Light" font-size="12px">M3 absolute</text>
+<path id="controlall_node_16" d="M15,207 L125,207 L125,209 L15,209 Z" fill="#ffffff" stroke="#ffffff"/>
+<path id="controlall_node_17" d="M175,207 L290,207 L290,209 L175,209 Z" fill="#333333" stroke="#333333"/>
+<text x="375" y="201" fill="#cccccc" font-family="UniversNextPro-Light" font-size="12px">muted</text>
+<path id="controlall_node_18" d="M370,185 L470,185 L470,208 L370,208 Z" fill="#000000" stroke="#000000"/>
+  <circle id="controlall_palette_0" cx="640" cy="0" r="1" fill="#000000" stroke="#000000" stroke-width="1"/>
+  <circle id="controlall_palette_1" cx="640" cy="0" r="1" fill="#111111" stroke="#111111" stroke-width="1"/>
+  <circle id="controlall_palette_2" cx="640" cy="0" r="1" fill="#222222" stroke="#222222" stroke-width="1"/>
+  <circle id="controlall_palette_3" cx="640" cy="0" r="1" fill="#333333" stroke="#333333" stroke-width="1"/>
+  <circle id="controlall_palette_4" cx="640" cy="0" r="1" fill="#444444" stroke="#444444" stroke-width="1"/>
+  <circle id="controlall_palette_5" cx="640" cy="0" r="1" fill="#555555" stroke="#555555" stroke-width="1"/>
+  <circle id="controlall_palette_6" cx="640" cy="0" r="1" fill="#666666" stroke="#666666" stroke-width="1"/>
+  <circle id="controlall_palette_7" cx="640" cy="0" r="1" fill="#777777" stroke="#777777" stroke-width="1"/>
+  <circle id="controlall_palette_8" cx="640" cy="0" r="1" fill="#888888" stroke="#888888" stroke-width="1"/>
+  <circle id="controlall_palette_9" cx="640" cy="0" r="1" fill="#999999" stroke="#999999" stroke-width="1"/>
+  <circle id="controlall_palette_10" cx="640" cy="0" r="1" fill="#aaaaaa" stroke="#aaaaaa" stroke-width="1"/>
+  <circle id="controlall_palette_11" cx="640" cy="0" r="1" fill="#bbbbbb" stroke="#bbbbbb" stroke-width="1"/>
+  <circle id="controlall_palette_12" cx="640" cy="0" r="1" fill="#cccccc" stroke="#cccccc" stroke-width="1"/>
+  <circle id="controlall_palette_13" cx="640" cy="0" r="1" fill="#dddddd" stroke="#dddddd" stroke-width="1"/>
+  <circle id="controlall_palette_14" cx="640" cy="0" r="1" fill="#eeeeee" stroke="#eeeeee" stroke-width="1"/>
+  <circle id="controlall_palette_15" cx="640" cy="0" r="1" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+</g>
