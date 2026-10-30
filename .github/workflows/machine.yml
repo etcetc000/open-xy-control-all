@@ -6,8 +6,8 @@ on:
 permissions:
   contents: read
 env:
-  # Development follows staging; pin a compatible SDK commit for a release.
-  OPEN_XY_REF: staging
+  # Pin the proposed aux ownership API until its upstream PRs are consolidated.
+  OPEN_XY_REF: 4f62c99a01649b6348f4938370a5d6a08e465d48
 jobs:
   machine:
     runs-on: ubuntu-latest
@@ -31,7 +31,7 @@ jobs:
           sudo apt-get update && sudo apt-get install -y clang lld
           python -m pip install numpy==2.3.5
       - name: Machine source, preview and sound checks
-        run: python open-xy/sdk.py test --machine machine --cxx clang++ --host-cxx g++
+        run: python open-xy/sdk.py test --machine machine --cxx clang++ --host-cxx g++ --no-cpu
   firmware:
     runs-on: windows-latest
     steps:

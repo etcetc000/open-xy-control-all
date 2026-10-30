@@ -2,7 +2,8 @@
 
 This repository holds Control All (`controlall`). The machine is at the repository root.
 Read README.md and use the [Open-XY SDK](https://github.com/etcetc000/open-xy)
-on `staging`, normally checked out beside this repository as `../open-xy`.
+at the handoff revision pinned in README.md and CI, normally checked out beside
+this repository as `../open-xy`. Staging does not yet provide the required API.
 Adjust that path if the user already has the SDK elsewhere.
 
 1. Read the [machine API](https://github.com/etcetc000/open-xy/blob/staging/docs/api.md),

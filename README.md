@@ -1,6 +1,6 @@
 # Control All
 
-An experimental Open-XY aux machine: eight numbered controls affect the matching
+An experimental source example for the Open-XY track-control and aux SDK proposals: eight numbered controls affect the matching
 engine parameter slots on all eight instrument tracks. It produces no audio.
 
 ## Play
@@ -44,11 +44,18 @@ editor. Different ranges are normalized, not matched in Hz or other units.
 
 ## Development and validation
 
-Requires the local SDK aux ownership prototype in `../open-xy-aux-ownership`
-(branch `experiment/aux-track-ownership`), based on PR #234. Stock staging is
-not yet sufficient for its M2/M3 mode actions. No new SDK hooks were added for
-Control All. The generated CI workflow still targets staging and is a template
-until the required SDK changes are published; this repo is not published.
+Requires the [SDK handoff branch](https://github.com/etcetc000/open-xy/tree/handoff/track-control-aux-ownership),
+pinned in CI to `4f62c99a01649b6348f4938370a5d6a08e465d48`.
+It adds two focused commits on the existing PR #234 stack: parameter restoration,
+then direct aux ownership with an opt-in shared LFO. It is integration material
+for [#198](https://github.com/etcetc000/open-xy/pull/198) and
+[#234](https://github.com/etcetc000/open-xy/pull/234), not a merged SDK release.
+No additional SDK hooks were added for Control All. Clone that SDK beside this
+repository and use its checkout for the commands below.
+
+This repository demonstrates reuse of those interfaces. Its fader artwork and
+mode gestures are provisional machine UX, not SDK conventions or acceptance
+requirements. Morphose can remain a separate example/catalog decision.
 
 Run from the SDK checkout:
 
@@ -61,9 +68,11 @@ non-accumulation, changes to underlying values, mute, project mode persistence,
 mode/value captions, row switching, and silent audio output. The SDK preview
 checks drawing and ABI; it does not simulate multiple tracks or native step
 locks. Control runs on the GUI tick: this is not sample-accurate automation.
-Actual sequencer delivery, mute restoration, project reload, and CV/gate
-suppression still require device testing. No hardware CPU result is claimed.
+The maintainer tried the combined build on an OP-XY and reported that Control
+All works well. That is a functional observation, not a completed hardware test
+matrix: step timing, mute restoration, pattern/project transitions and CV/gate
+suppression still need targeted confirmation. No hardware CPU result is claimed.
 
 Keep firmware/packages outside every checkout. Preserve existing layout IDs
-when building. Publication and catalog submission remain pending hardware
-validation. See [AGENTS.md](AGENTS.md) and [LICENSE](LICENSE).
+when building. This is a source example; catalog submission and release qualification remain
+pending hardware validation. See [AGENTS.md](AGENTS.md) and [LICENSE](LICENSE).
